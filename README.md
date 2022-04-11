@@ -10,7 +10,7 @@ Next.js + Tailwind CSS + Slack Project
 ## Info:
 
 - Website addresses: [https://nippon.dev](https://nippon.dev).
-- Netlify address: [https://nippon.netlify.app](https://nippon.netlify.app).
+- Netlify address: [https://nippon-edge.netlify.app](https://nippon-edge.netlify.app).
 - Blog: [https://kevinmatsunaga.com](https://kevinmatsunaga.com).
 - Hosted at: [Netlify](https://netlify.com).
 - Photos hosted at: [Cloudinary](https://cloudinary.com).
@@ -30,5 +30,9 @@ Next.js + Tailwind CSS + Slack Project
   <br>
   <a target="_blank" href="https://nippon.dev"><img src="https://res.cloudinary.com/shinkirin/image/upload/v1649676801/kevin-matsunaga/nippon-edgeLogo.webp" alt="Nippon Edge logo" height="140"></a>
 </h4>
-# nippon-edge-nextjs
+
+## Netlify Badge
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fd72b887-64a8-431d-a9b3-019b661817fc/deploy-status)](https://app.netlify.com/sites/nippon-edge/deploys)
+
 # nippon-edge-nextjs
