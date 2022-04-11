@@ -116,7 +116,7 @@ export default function Policy() {
           <h2>Who we share your data with</h2>
           <h3>Web Analytics</h3>
           <p>
-          We use <a className="hover:text-sred" href="https://statcounter.com/about/legal/" target="_blank" rel="noreferrer" title="Link to Statcounter Privacy Policy">Statcounter Web Analytics</a> to gather data on visitors. Please refer to their Privacy Policy at the aforementioned link to learn more how Statcounter handles its data. In the future we will switch to Countly.
+          We use <a className="hover:text-sred" href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noreferrer" title="Link to Cloudflare Privacy Policy">Cloudflare Web Analytics</a> to gather data on visitors. Please refer to their Privacy Policy at the aforementioned link to learn more how Statcounter handles its data. In the future we will switch to Countly.
           </p>
           <h3>Static Site Hosting</h3>
           <p>Nippn Edge&apos;s website is hosted at <a className="hover:text-sred" href="https://www.netlify.com/privacy/" target="_blank" rel="noreferrer" title="Link to Netlify Privacy Policy">Netlify</a>. Please refer to their Privacy Policies in the aforementioned link to learn more how they handle gathered data.</p>
