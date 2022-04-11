@@ -97,13 +97,13 @@ const navigation = {
           <script type="text/javascript">
           var sc_project=12742120; 
           var sc_invisible=1; 
-          var sc_security="46700466"; 
+          var sc_security=&quot;46700466&quot;; 
           </script>
           <script type="text/javascript"
           src="https://www.statcounter.com/counter/counter.js"
           async></script>
           <noscript><div class="statcounter"><a title="Statcounter for Nippon Edge" href="https://statcounter.com/"
-          target="_blank"><img class="statcounter"
+          target="_blank" rel="noreferrer"><img class="statcounter"
           src="https://c.statcounter.com/12742120/0/46700466/1/"
           alt="real time web analytics"
           referrerPolicy="no-referrer-when-downgrade" /></a></div></noscript>
