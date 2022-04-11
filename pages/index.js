@@ -32,7 +32,7 @@ export default function Index() {
 {/** End of Header Section */}
 {/** Start of Main Body Section */}
     <div id="down" className="relative bg-swhite">
-      <Meta title="Nippon Edge homepage" />
+      <Meta title="Build on the Edge" />
       <div className="lg:absolute lg:inset-0 lg:ml-6 lg:mb-12">
         <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
         <img
