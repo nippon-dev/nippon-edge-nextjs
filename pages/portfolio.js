@@ -115,9 +115,9 @@ const portfolios = [
       framework: 'WordPress',
       href: 'https://web.archive.org/web/20161024040145/http://amerasianfoundation.org/category/amerasianfoundation/',
       company: 'Amerasian Foundation',
-      location: 'Budapest, Hungary',
+      location: 'Seattle, Washington',
       imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649719387/kevin-matsunaga/amerasian-foundation.webp',
-      imageAlt: 'Eduwise Consulting website.',
+      imageAlt: 'Amerasian Foundation website.',
     },
   ]
 
