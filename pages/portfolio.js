@@ -28,7 +28,7 @@ const currentPorts = [
   },
   {
     id: 3,
-    framework: 'SvelteKit + Tailwind CSS',
+    framework: 'Next.js + Tailwind CSS',
     href: 'https://vinifty.tech',
     company: 'Nippon Edge',
     location: 'HCMC, Vietnam',
@@ -43,16 +43,7 @@ const currentPorts = [
     location: 'HCMC, Vietnam',
     imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1636336719/kevin-matsunaga/babas-kitchen.webp',
     imageAlt: 'Baba\'s Kitchen Next.js + Tailwind CSS website.',
-  },
-  {
-    id: 5,
-    framework: 'NuxtJS + Tailwind CSS',
-    href: 'https://qazed.tech',
-    company: 'QAZED.tech',
-    location: 'Almaty, Kazakhstan',
-    imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1636344583/kevin-matsunaga/qazedtech.webp',
-    imageAlt: 'QAZED.tech website.',
-  },
+  }
 ]
 
 const portfolios = [
@@ -109,6 +100,15 @@ const portfolios = [
       location: 'HCMC, Vietnam',
       imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1636344991/kevin-matsunaga/oishiieatsvn.webp',
       imageAlt: 'OishiiEats.vn website.',
+    },
+    {
+      id: 7,
+      framework: 'NuxtJS + Tailwind CSS',
+      href: 'https://qazed.tech',
+      company: 'QAZED.tech',
+      location: 'Almaty, Kazakhstan',
+      imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1636344583/kevin-matsunaga/qazedtech.webp',
+      imageAlt: 'QAZED.tech website.',
     },
   ]
 
