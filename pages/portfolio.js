@@ -29,7 +29,7 @@ const currentPorts = [
   {
     id: 3,
     framework: 'Next.js + Tailwind CSS',
-    href: 'https://vinifty.tech',
+    href: 'https://nippon.dev',
     company: 'Nippon Edge',
     location: 'HCMC, Vietnam',
     imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649689657/kevin-matsunaga/nippon-edge-screenshot.webp',
@@ -68,7 +68,7 @@ const portfolios = [
     {
       id: 3,
       framework: 'WordPress + Moodle + Gibbon',
-      href: '#',
+      href: 'https://eduwise.com/',
       company: 'Eduwise Consulting',
       location: 'Budapest, Hungary',
       imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1636344153/kevin-matsunaga/eduwise.webp',
@@ -109,6 +109,15 @@ const portfolios = [
       location: 'Almaty, Kazakhstan',
       imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1636344583/kevin-matsunaga/qazedtech.webp',
       imageAlt: 'QAZED.tech website.',
+    },
+    {
+      id: 8,
+      framework: 'WordPress',
+      href: 'https://web.archive.org/web/20161024040145/http://amerasianfoundation.org/category/amerasianfoundation/',
+      company: 'Amerasian Foundation',
+      location: 'Budapest, Hungary',
+      imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649719387/kevin-matsunaga/amerasian-foundation.webp',
+      imageAlt: 'Eduwise Consulting website.',
     },
   ]
 
