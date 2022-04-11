@@ -3,7 +3,7 @@ import { Disclosure } from '@headlessui/react'
 import Link from 'next/link'
 
 Meta.defaultProps = {
-  siteTitle: ''Nippon Edge\'s Privacy Policy',
+  siteTitle: 'Nippon Edge\'s Privacy Policy',
   keywords: 'jamstack, next.js, nuxtjs, tailwind css, netlifty, wordpress, wordpress optimization, cloudflare, cloudinary, github',
   description: 'Nippon Edge\'s Privacy Policy for website.',
 }
@@ -11,7 +11,7 @@ Meta.defaultProps = {
 export default function Policy() {
   return (
     <Disclosure as="navigation" className="">
-      {({ open }) => (
+      {( 
         <>
           {/** start of main body area */}
       <div className="relative py-16 bg-white overflow-hidden">

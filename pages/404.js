@@ -18,7 +18,7 @@ export default function FourOhFour() {
               <img
                 className="h-40 w-auto"
                 src="/page-not-found.svg"
-                alt=""
+                alt="Nippon Edge logo"
               />
             </a></Link>
           </div>

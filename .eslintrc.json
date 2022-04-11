@@ -1,3 +1,32 @@
 {
-  "extends": "next/core-web-vitals"
+  "env": {
+    "commonjs": true,
+    "node": true,
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "extends": ["eslint:recommended", "next", "plugin:react/recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "import"],
+  "rules": {
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/display-name": "off",
+    "eslint/no-unused-var": "off",
+    "@next/next/no-img-element": "off",
+    "react/no-unknown-property": "off",
+    "no-unused-vars": "off"
+  }
 }

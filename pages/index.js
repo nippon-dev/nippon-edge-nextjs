@@ -56,7 +56,7 @@ export default function Index() {
             <br />
             Jamstack builds on many of the tools and workflows which developers love and brings maximum productivity to your project. We combine our favorite tools and frontend frameworks, like Next.js, NuxtJS, and SvelteKit, to better deliver engaging websites and web applications to our customers.<br />
             <br />
-            Our customers' websites are deployed serverless on Edge computing servers such as Cloudflare Pages, Netlify, or Vercel. We can also deploy to MERN stacks or other static deployment solutions.
+            Our customers&apos; websites are deployed serverless on Edge computing servers such as Cloudflare Pages, Netlify, or Vercel. We can also deploy to MERN stacks or other static deployment solutions.
             </p>
             <h3 className="mt-4 text-xl leading-8 font-extrabold tracking-tight text-sblack sm:text-2xl">Let us optimize your website</h3>
             <p className="mt-8 text-lg text-sblack">          
