@@ -3,9 +3,9 @@ import { Disclosure } from '@headlessui/react'
 import Link from 'next/link'
 
 Meta.defaultProps = {
-  siteTitle: 'Kevin Matsunaga\'s Portfolio site',
+  siteTitle: ''Nippon Edge\'s Privacy Policy',
   keywords: 'jamstack, next.js, nuxtjs, tailwind css, netlifty, wordpress, wordpress optimization, cloudflare, cloudinary, github',
-  description: 'Kevin Matsunaga\'s Privacy Policy for website.',
+  description: 'Nippon Edge\'s Privacy Policy for website.',
 }
 
 export default function Policy() {
@@ -15,7 +15,7 @@ export default function Policy() {
         <>
           {/** start of main body area */}
       <div className="relative py-16 bg-white overflow-hidden">
-      <Meta title="Skinkirin Tech Cookie &amp; Privacy Policy" />
+      <Meta title="Nippon Edge&apos;'s Cookie &amp; Privacy Policy" />
       <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
         <div className="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
           <svg
@@ -116,10 +116,10 @@ export default function Policy() {
           <h2>Who we share your data with</h2>
           <h3>Web Analytics</h3>
           <p>
-          We use <a className="hover:text-sred" href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noreferrer" title="Link to Cloudflare Privacy Policy">Cloudflare Web Analytics</a> to gather data on visitors. Please refer to their Privacy Policy at the aforementioned link to learn more how Cloudflare handles its data. The data gathered by cookies from Cloudflare Web Analytics include: Country, Source, Paths, Hosts, Browsers, Operating Systems, and Device Types.
+          We use <a className="hover:text-sred" href="https://statcounter.com/about/legal/" target="_blank" rel="noreferrer" title="Link to Statcounter Privacy Policy">Statcounter Web Analytics</a> to gather data on visitors. Please refer to their Privacy Policy at the aforementioned link to learn more how Statcounter handles its data. In the future we will switch to Countly.
           </p>
           <h3>Static Site Hosting</h3>
-          <p>Shinkirin Tech&apos;s website is hosted at <a className="hover:text-sred" href="https://www.netlify.com/privacy/" target="_blank" rel="noreferrer" title="Link to Netlify Privacy Policy">Netlify</a>. Please refer to their Privacy Policies in the aforementioned link to learn more how they handle gathered data.</p>
+          <p>Nippn Edge&apos;s website is hosted at <a className="hover:text-sred" href="https://www.netlify.com/privacy/" target="_blank" rel="noreferrer" title="Link to Netlify Privacy Policy">Netlify</a>. Please refer to their Privacy Policies in the aforementioned link to learn more how they handle gathered data.</p>
           <h3>Slack Workflow Automation</h3>
           <p>We automate part of this site&apos;s workflows with <a className="hover:text-sred" href="https://slack.com/intl/en-vn/trust/privacy/privacy-policy" target="_blank" rel="noreferrer" title="Link to Slack Privacy Policy">Slack</a>. Please refer to their Privacy Policies in the aforementioned link to learn more how they handle gathered data.</p>
           <h2>Contact Us</h2>

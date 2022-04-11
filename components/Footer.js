@@ -93,9 +93,21 @@ const navigation = {
           Hosted at <a className="hover:text-sred" href="https://netlify.com/" target="_blank" rel="noreferrer" title="Link to Netlify website">Netlify</a>.
           </p>
         </div>
-        {/** Cloudflare Web Analytics */}
-        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d4110e53c3cd4fb8af262d3bb2ceef65"}'></script>
-        {/** End of Cloudflare Web Analytics */}
+        {/** Default Statcounter code for Nippon Edge website https://nippon.dev */}
+          <script type="text/javascript">
+          var sc_project=12742120; 
+          var sc_invisible=1; 
+          var sc_security="46700466"; 
+          </script>
+          <script type="text/javascript"
+          src="https://www.statcounter.com/counter/counter.js"
+          async></script>
+          <noscript><div class="statcounter"><a title="Statcounter for Nippon Edge" href="https://statcounter.com/"
+          target="_blank"><img class="statcounter"
+          src="https://c.statcounter.com/12742120/0/46700466/1/"
+          alt="real time web analytics"
+          referrerPolicy="no-referrer-when-downgrade" /></a></div></noscript>
+        {/** End of Statcounter Code */}
       </footer>
     )
   }

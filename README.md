@@ -5,7 +5,7 @@ Nippon Edge website
 Next.js + Tailwind CSS + Slack Project
 </h3>
 
-![screenshot](https://res.cloudinary.com/shinkirin/image/upload/v1636378697/kevin-matsunaga/socialog.webp)
+![screenshot](https://res.cloudinary.com/shinkirin/image/upload/v1649682760/kevin-matsunaga/socialog.png)
 
 ## Info:
 

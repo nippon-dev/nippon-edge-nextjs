@@ -16,9 +16,9 @@ const Meta = ({ title, keywords, description, siteTitle }) => {
               "description": "Nippon Edge is the private portfolio site for Kevin Miller Matsunaga.",
               "image": {
                 "@type": "ImageObject",
-                "url": "https://res.cloudinary.com/shinkirin/image/upload/v1636378697/kevin-matsunaga/socialog.webp",
+                "url": "https://res.cloudinary.com/shinkirin/image/upload/v1649682760/kevin-matsunaga/socialog.png",
                 "width": "1200px",
-                "height": "650px"
+                "height": "630px"
               },
               "author": {
                 "@type": "Person",
@@ -46,14 +46,14 @@ const Meta = ({ title, keywords, description, siteTitle }) => {
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={`${title} | ${siteTitle}`} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content="https://res.cloudinary.com/shinkirin/image/upload/v1636378697/kevin-matsunaga/socialog.webp" />
+      <meta name="twitter:image" content="https://res.cloudinary.com/shinkirin/image/upload/v1649682760/kevin-matsunaga/socialog.png" />
       <meta property="twitter:domain" content="nippon.dev" />
       <meta property="twitter:url" content="https://nippon.dev" />
       <meta property="og:title" content={`${title} | ${siteTitle}`} />
       <meta property="og:url" content="https://nippon.dev" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://res.cloudinary.com/shinkirin/image/upload/v1636378697/kevin-matsunaga/socialog.webp" />
-      <meta property="og:image:url" content="https://res.cloudinary.com/shinkirin/image/upload/v1636378697/kevin-matsunaga/socialog.webp" />
+      <meta property="og:image" content="https://res.cloudinary.com/shinkirin/image/upload/v1649682760/kevin-matsunaga/socialog.png" />
+      <meta property="og:image:url" content="https://res.cloudinary.com/shinkirin/image/upload/v1649682760/kevin-matsunaga/socialog.png" />
       <meta property="og:description" content={description} />
       <meta charSet='utf-8' />
       <link rel='icon' href='/favicon.ico' />
