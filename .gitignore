@@ -1,0 +1,8 @@
+*.log
+.DS_Store
+.next/
+.history/
+.vscode/
+.git
+node_modules/
+out/
