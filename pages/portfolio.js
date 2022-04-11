@@ -1,7 +1,5 @@
 import Meta from '../components/Meta'
 import { Disclosure } from '@headlessui/react'
-import { CameraIcon } from '@heroicons/react/solid'
-import Link from 'next/link'
 
 Meta.defaultProps = {
   siteTitle: 'Nippon Edge\'s Portfolio',
@@ -9,19 +7,58 @@ Meta.defaultProps = {
   description: 'Nippon Edge\'s Portfolio includes Next.js, NuxtJS and SvelteKit projects.',
 }
 
+const currentPorts = [
+  {
+    id: 1,
+    framework: 'SvelteKit + GraphCMS + Tailwind CSS',
+    href: 'https://benstylefood.com',
+    company: 'Ben Style Food',
+    location: 'HCMC, Vietnam',
+    imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649689657/kevin-matsunaga/benstyle-screenshot.webp',
+    imageAlt: 'Ben Style Food SvelteKit + GraphCMS website.',
+  },
+  {
+    id: 2,
+    framework: 'SvelteKit + GraphCMS + Tailwind CSS',
+    href: 'https://vinifty.tech',
+    company: 'Vinifty',
+    location: 'HCMC, Vietnam',
+    imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649689657/kevin-matsunaga/vinifty-screenshot.webp',
+    imageAlt: 'Vinifty startup website.',
+  },
+  {
+    id: 3,
+    framework: 'SvelteKit + Tailwind CSS',
+    href: 'https://vinifty.tech',
+    company: 'Nippon Edge',
+    location: 'HCMC, Vietnam',
+    imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649689657/kevin-matsunaga/nippon-edge-screenshot.webp',
+    imageAlt: 'Nippon Edge website.',
+  },
+  {
+    id: 4,
+    framework: 'Next.js + Tailwind CSS + GloriaFood',
+    href: 'https://babaskitchen.vn',
+    company: 'Baba\'s Kitchen',
+    location: 'HCMC, Vietnam',
+    imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1636336719/kevin-matsunaga/babas-kitchen.webp',
+    imageAlt: 'Baba\'s Kitchen Next.js + Tailwind CSS website.',
+  },
+  {
+    id: 5,
+    framework: 'NuxtJS + Tailwind CSS',
+    href: 'https://qazed.tech',
+    company: 'QAZED.tech',
+    location: 'Almaty, Kazakhstan',
+    imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1636344583/kevin-matsunaga/qazedtech.webp',
+    imageAlt: 'QAZED.tech website.',
+  },
+]
+
 const portfolios = [
     {
       id: 1,
-      framework: 'Next.js + Tailwind CSS + GloriaFood',
-      href: 'https://babaskitchen.vn',
-      company: 'Baba\'s Kitchen',
-      location: 'HCMC, Vietnam',
-      imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1636336719/kevin-matsunaga/babas-kitchen.webp',
-      imageAlt: 'Baba\'s Kitchen Next.js + Tailwind CSS website.',
-    },
-    {
-      id: 2,
-      framework: 'WordPress + GloriaFood',
+      framework: 'WordPress + GloriaFood (old site)',
       href: 'https://benstylefood.com',
       company: 'Ben Style Food',
       location: 'HCMC, Vietnam',
@@ -29,7 +66,7 @@ const portfolios = [
       imageAlt: 'Ben Style Food website.',
     },
     {
-      id: 3,
+      id: 2,
       framework: 'WordPress',
       href: 'https://web.archive.org/web/20080222102902/http://www.triviet-consult.com/',
       company: 'Tri Viet Consulting',
@@ -38,7 +75,7 @@ const portfolios = [
       imageAlt: 'Tri Viet Consulting WordPress website.',
     },
     {
-      id: 4,
+      id: 3,
       framework: 'WordPress + Moodle + Gibbon',
       href: '#',
       company: 'Eduwise Consulting',
@@ -47,7 +84,7 @@ const portfolios = [
       imageAlt: 'Eduwise Consulting website.',
     },
     {
-      id: 5,
+      id: 4,
       framework: 'Next.js + Tailwind CSS + Woocommerce',
       href: 'https://bring.vn',
       company: 'bring.vn',
@@ -56,16 +93,7 @@ const portfolios = [
       imageAlt: 'bring.vn website.',
     },
     {
-      id: 6,
-      framework: 'NuxtJS + Tailwind CSS',
-      href: 'https://qazed.tech',
-      company: 'QAZED.tech',
-      location: 'Almaty, Kazakhstan',
-      imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1636344583/kevin-matsunaga/qazedtech.webp',
-      imageAlt: 'QAZED.tech website.',
-    },
-    {
-      id: 7,
+      id: 5,
       framework: 'Next.js + Tailwind CSS + Woocommerce',
       href: 'https://mangad.app',
       company: 'MangaD.app',
@@ -74,7 +102,7 @@ const portfolios = [
       imageAlt: 'MangaD.app website.',
     },
     {
-      id: 8,
+      id: 6,
       framework: 'NuxtJS + Tailwind CSS + GloriaFood',
       href: 'https://oishiieats.vn/',
       company: 'OishiiEats.vn',
@@ -82,7 +110,6 @@ const portfolios = [
       imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1636344991/kevin-matsunaga/oishiieatsvn.webp',
       imageAlt: 'OishiiEats.vn website.',
     },
-    // More portfolio...
   ]
 
 export default function Portfolios() {
@@ -110,9 +137,8 @@ export default function Portfolios() {
 {/** End of Header Section */}
 {/** Start of Main Body Section */}
 <div className="relative py-16 bg-swhite overflow-hidden">
-<Meta title="Kevin Matsunaga's WordPress and Jamstack website portfolios" />
- 
-      <div className="relative px-4 sm:px-6 lg:px-8">
+<Meta title="Nippon Edge WordPress and Jamstack website portfolios" />
+      <div className="relative px-4 sm:px-6 lg:px-8 border-b-2 border-b-sorange border-dotted">
         <div className="text-lg max-w-prose mx-auto">
           <h1>
             <span className="block text-base text-center text-sred font-semibold tracking-wide uppercase">
@@ -123,22 +149,44 @@ export default function Portfolios() {
             </span>
           </h1>
         </div>
-        <div className="mt-6 mb-2 prose prose-blue blue-lg text-gray-900 mx-auto">
-
+        <div className="mt-6 mb-6 prose prose-sblue-lg text-gray-900 mx-auto">
           <p>
-          Below are some of our selected current and past projects. Most focused and website component to the projects. The web platform chosen were either Next.js, NuxtJS, or WordPress. Several foods and beverage projects integrated Oracle GloriaFood and Woocommerce (WordPress) with their projects. We are currently providing serverless or server hosting for most of these projects.
+          Below are some of our selected current and past projects. For the past projects, the web platform chosen were Next.js, NuxtJS, or WordPress. Several foods and beverage projects integrated Oracle GloriaFood with their projects.<br />
+          <br />
+          For current projects, the most common platform chosen was Next.js or SvelteKit. The projects also integrate with GraphCMS, a GraphQL headless content management system.<br />
+          <br /> We are currently providing serverless or server hosting for most of these projects.
           </p>
         </div>
       </div>
-
   <div className="bg-gray-50 ml-2 mr-2 rounded-lg">
+    <div className="border-b-2 border-b-sorange border-dotted max-w-2xl mx-auto py-8 px-4 sm:py-12 sm:px-6 lg:max-w-7xl lg:px-8">
+        <h3 className="text-center font-extrabold text-2xl sm:text-3xl pb-4">Current Projects</h3>
+        <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+          {currentPorts.map((currentPort) => (
+            <a key={currentPort.id} href={currentPort.href} target="_blank" rel="noreferrer"
+            className="group">
+              <div className="w-full aspect-w-1 aspect-h-1 bg-sred rounded-lg overflow-hidden">
+                <img
+                  src={currentPort.imageSrc}
+                  alt={currentPort.imageAlt}
+                  title={currentPort.company}
+                  className="w-full h-full object-center object-cover group-hover:opacity-75"
+                />
+              </div>
+              <h3 className="mt-4 text-sm text-gray-700">{currentPort.framework}.</h3>
+              <p className="mt-1 text-lg font-bold text-gray-900">{currentPort.company}<span className="font-normal"></span></p>
+              <p className="mt-1 text-md font-medium text-shinkirin">Location: {currentPort.location}.</p>
+            </a>
+          ))}
+        </div>
+      </div>
       <div className="max-w-2xl mx-auto py-8 px-4 sm:py-12 sm:px-6 lg:max-w-7xl lg:px-8">
-        <h3 className="text-center font-extrabold text-2xl sm:text-3xl pb-4">Current and Past Projects</h3>
+        <h3 className="text-center font-extrabold text-2xl sm:text-3xl pb-4">Past Projects</h3>
         <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
           {portfolios.map((portfolio) => (
             <a key={portfolio.id} href={portfolio.href} target="_blank" rel="noreferrer"
             className="group">
-              <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden">
+              <div className="w-full aspect-w-1 aspect-h-1 bg-sblue rounded-lg overflow-hidden">
                 <img
                   src={portfolio.imageSrc}
                   alt={portfolio.imageAlt}
