@@ -56,24 +56,24 @@ const currentPorts = [
 ]
 
 const portfolios = [
-    {
+  {
       id: 1,
-      framework: 'WordPress + GloriaFood (old site)',
-      href: 'https://benstylefood.com',
-      company: 'Ben Style Food',
-      location: 'HCMC, Vietnam',
-      imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1636343689/kevin-matsunaga/benstylefood.webp',
-      imageAlt: 'Ben Style Food website.',
+      framework: 'Next.js + Tailwind CSS',
+      href: 'https://shinkirin.com',
+      company: 'Shinkirin',
+      location: 'Fukuoka, Japan',
+      imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649733333/kevin-matsunaga/shinkirin-screenshot.webp',
+      imageAlt: 'Shinkirin Next.js + Tailwind CSS website.',
     },
     {
       id: 2,
       framework: 'WordPress',
-      href: 'https://web.archive.org/web/20080222102902/http://www.triviet-consult.com/',
-      company: 'Tri Viet Consulting',
+      href: 'https://seaact.org',
+      company: 'SEAACT',
       location: 'HCMC, Vietnam',
-      imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1636287366/kevin-matsunaga/triviet-consulting.webp',
-      imageAlt: 'Tri Viet Consulting WordPress website.',
-    },
+      imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649736883/kevin-matsunaga/seaact-screenshot.webp',
+      imageAlt: 'Southeast Asia Action for Clean Technology website.',
+    },  
     {
       id: 3,
       framework: 'WordPress + Moodle + Gibbon',
@@ -128,15 +128,24 @@ const portfolios = [
       imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649719387/kevin-matsunaga/amerasian-foundation.webp',
       imageAlt: 'Amerasian Foundation website.',
     },
-  {
-    id: 9,
-    framework: 'Next.js + Tailwind CSS',
-    href: 'https://shinkirin.com',
-    company: 'Shinkirin',
-    location: 'Fukuoka, Japan',
-    imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649733333/kevin-matsunaga/shinkirin-screenshot.webp',
-    imageAlt: 'Shinkirin Next.js + Tailwind CSS website.',
-  }
+    {
+      id: 9,
+      framework: 'WordPress + GloriaFood (old site)',
+      href: 'https://benstylefood.com',
+      company: 'Ben Style Food',
+      location: 'HCMC, Vietnam',
+      imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1636343689/kevin-matsunaga/benstylefood.webp',
+      imageAlt: 'Ben Style Food website.',
+    },
+    {
+      id: 10,
+      framework: 'WordPress',
+      href: 'https://web.archive.org/web/20080222102902/http://www.triviet-consult.com/',
+      company: 'Tri Viet Consulting',
+      location: 'HCMC, Vietnam',
+      imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1636287366/kevin-matsunaga/triviet-consulting.webp',
+      imageAlt: 'Tri Viet Consulting WordPress website.',
+    }
   ]
 
 export default function Portfolios() {
