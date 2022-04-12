@@ -43,6 +43,15 @@ const currentPorts = [
     location: 'HCMC, Vietnam',
     imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1636336719/kevin-matsunaga/babas-kitchen.webp',
     imageAlt: 'Baba\'s Kitchen Next.js + Tailwind CSS website.',
+  },
+  {
+    id: 5,
+    framework: 'Next.js + Tailwind CSS',
+    href: 'https://gohalalvietnam.com',
+    company: 'GoHalalVietnam!',
+    location: 'HCMC, Vietnam',
+    imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649729164/kevin-matsunaga/gohalalvietnam-screenshot.webp',
+    imageAlt: 'GoHalalVietnam! Next.js + Tailwind CSS website.',
   }
 ]
 
