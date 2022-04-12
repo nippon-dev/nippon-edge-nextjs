@@ -128,6 +128,15 @@ const portfolios = [
       imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649719387/kevin-matsunaga/amerasian-foundation.webp',
       imageAlt: 'Amerasian Foundation website.',
     },
+  {
+    id: 9,
+    framework: 'Next.js + Tailwind CSS',
+    href: 'https://shinkirin.com',
+    company: 'Shinkirin',
+    location: 'Fukuoka, Japan',
+    imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649733333/kevin-matsunaga/shinkirin-screenshot.webp',
+    imageAlt: 'Shinkirin Next.js + Tailwind CSS website.',
+  }
   ]
 
 export default function Portfolios() {

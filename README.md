@@ -10,6 +10,7 @@ Next.js + Tailwind CSS + Slack Project
 ## Info:
 
 - Website addresses: [https://nippon.dev](https://nippon.dev).
+- Alternate web addresses: [https://shinkirin.tech](https://shinkirin.tech) and [https://shinkirin.com](https://shinkirin.com).
 - Netlify address: [https://nippon-edge.netlify.app](https://nippon-edge.netlify.app).
 - Blog: [https://kevinmatsunaga.com](https://kevinmatsunaga.com).
 - Hosted at: [Netlify](https://netlify.com).
