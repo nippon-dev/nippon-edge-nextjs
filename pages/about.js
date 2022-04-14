@@ -1,7 +1,6 @@
 import Meta from '../components/Meta'
 import { Disclosure } from '@headlessui/react'
 import { CameraIcon } from '@heroicons/react/solid'
-import Link from 'next/link'
 
 Meta.defaultProps = {
   siteTitle: 'Kevin Matsunaga - Nippon Edge',

@@ -10,6 +10,15 @@ Meta.defaultProps = {
 const currentPorts = [
   {
     id: 1,
+    framework: 'SvelteKit + GraphCMS Tailwind CSS',
+    href: 'https://babaskitchen.vn',
+    company: 'Baba\'s Kitchen',
+    location: 'HCMC, Vietnam',
+    imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649947920/kevin-matsunaga/babas-sveltekit.webp',
+    imageAlt: 'Baba\'s Kitchen SvelteKit + GraphCMS + Tailwind CSS website.',
+  },
+  {
+    id: 2,
     framework: 'SvelteKit + GraphCMS + Tailwind CSS',
     href: 'https://benstylefood.com',
     company: 'Ben Style Food',
@@ -18,7 +27,7 @@ const currentPorts = [
     imageAlt: 'Ben Style Food SvelteKit + GraphCMS website.',
   },
   {
-    id: 2,
+    id: 3,
     framework: 'SvelteKit + GraphCMS + Tailwind CSS',
     href: 'https://vinifty.tech',
     company: 'Vinifty',
@@ -27,22 +36,13 @@ const currentPorts = [
     imageAlt: 'Vinifty startup website.',
   },
   {
-    id: 3,
+    id: 4,
     framework: 'Next.js + Tailwind CSS',
     href: 'https://nippon.dev',
     company: 'Nippon Edge',
     location: 'HCMC, Vietnam',
     imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649689657/kevin-matsunaga/nippon-edge-screenshot.webp',
     imageAlt: 'Nippon Edge website.',
-  },
-  {
-    id: 4,
-    framework: 'Next.js + Tailwind CSS + GloriaFood',
-    href: 'https://babaskitchen.vn',
-    company: 'Baba\'s Kitchen',
-    location: 'HCMC, Vietnam',
-    imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1636336719/kevin-matsunaga/babas-kitchen.webp',
-    imageAlt: 'Baba\'s Kitchen Next.js + Tailwind CSS website.',
   },
   {
     id: 5,
@@ -139,6 +139,15 @@ const portfolios = [
     },
     {
       id: 10,
+      framework: 'Next.js + GloriaFood (old site)',
+      href: 'https://babaskitchen.vn',
+      company: 'Baba\'s Kitchen',
+      location: 'HCMC, Vietnam',
+      imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1636336719/kevin-matsunaga/babas-kitchen.webp',
+      imageAlt: 'Baba\'s Kitchen Next.js + Tailwind CSS website.',
+    },
+    {
+      id: 11,
       framework: 'WordPress',
       href: 'https://web.archive.org/web/20080222102902/http://www.triviet-consult.com/',
       company: 'Tri Viet Consulting',
