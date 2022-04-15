@@ -10,7 +10,7 @@ Meta.defaultProps = {
 const currentPorts = [
   {
     id: 1,
-    framework: 'SvelteKit + GraphCMS Tailwind CSS',
+    framework: 'SvelteKit + GraphCMS + Tailwind CSS',
     href: 'https://babaskitchen.vn',
     company: 'Baba\'s Kitchen',
     location: 'HCMC, Vietnam',
