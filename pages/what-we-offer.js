@@ -27,7 +27,7 @@ export default function WhatIOffer() {
       <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-extrabold tracking-tight text-swhite sm:text-5xl lg:text-6xl">Serverless Deployment</h1>
         <p className="mt-6 text-xl text-gray-100 max-w-3xl">
-        Deploy serverless with Cloudflare Pages, Netlify, or Vercel. We can even deploy to our Linux MERN stack.
+        Deploy serverless with Cloudflare Pages, Netlify, or Vercel. We can even deploy to our Linux CDN or MERN stack See our <a href="https://sin.nippon.dev" title="Link to Singapore Node by Nippon Edge">Singapore Node</a> site for more information.
         </p>
       </div>
     </div>

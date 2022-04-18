@@ -46,6 +46,15 @@ const currentPorts = [
   },
   {
     id: 5,
+    framework: 'SvelteKit + DaisyUI + Tailwind CSS',
+    href: 'https://sin.nippon.dev',
+    company: 'Singapore Node',
+    location: 'HCMC, Vietnam',
+    imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1650271857/kevin-matsunaga/singapore-node.webp',
+    imageAlt: 'Nippon Edge\'s Singapore Node website.',
+  },
+  {
+    id: 5,
     framework: 'Next.js + Tailwind CSS',
     href: 'https://gohalalvietnam.com',
     company: 'GoHalalVietnam!',
