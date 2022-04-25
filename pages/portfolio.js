@@ -28,7 +28,7 @@ const currentPorts = [
   },
   {
     id: 3,
-    framework: 'SvelteKit + Tailwind CSS',
+    framework: 'SvelteKit + DaisyUI + Tailwind CSS',
     href: 'https://gohalalvietnam.com',
     company: 'GoHALALVietnam',
     location: 'HCMC, Vietnam',
