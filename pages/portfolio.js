@@ -28,6 +28,15 @@ const currentPorts = [
   },
   {
     id: 3,
+    framework: 'SvelteKit + Tailwind CSS',
+    href: 'https://gohalalvietnam.com',
+    company: 'GoHALALVietnam',
+    location: 'HCMC, Vietnam',
+    imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1650869013/gohalalvietnam/gohalalvietnam-svelte.webp',
+    imageAlt: 'GoHALALVietnam website.',
+  },
+  {
+    id: 4,
     framework: 'SvelteKit + GraphCMS + Tailwind CSS',
     href: 'https://vinifty.tech',
     company: 'Vinifty',
@@ -36,7 +45,7 @@ const currentPorts = [
     imageAlt: 'Vinifty startup website.',
   },
   {
-    id: 4,
+    id: 5,
     framework: 'Next.js + Tailwind CSS',
     href: 'https://nippon.dev',
     company: 'Nippon Edge',
@@ -45,7 +54,7 @@ const currentPorts = [
     imageAlt: 'Nippon Edge website.',
   },
   {
-    id: 5,
+    id: 6,
     framework: 'SvelteKit + DaisyUI + Tailwind CSS',
     href: 'https://sin.nippon.dev',
     company: 'Singapore Node',
@@ -148,6 +157,15 @@ const portfolios = [
     },
     {
       id: 11,
+      framework: 'Next.js + Tailwind CSS (old site)',
+      href: 'https://gohalalvietnam.com',
+      company: 'GoHalalVietnam!',
+      location: 'HCMC, Vietnam',
+      imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649729164/kevin-matsunaga/gohalalvietnam-screenshot.webp',
+      imageAlt: 'GoHalalVietnam! Next.js + Tailwind CSS website.',
+    },
+    {
+      id: 12,
       framework: 'WordPress',
       href: 'https://web.archive.org/web/20080222102902/http://www.triviet-consult.com/',
       company: 'Tri Viet Consulting',
