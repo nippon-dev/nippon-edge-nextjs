@@ -38,14 +38,23 @@ const currentPorts = [
   {
     id: 4,
     framework: 'SvelteKit + GraphCMS + Tailwind CSS',
-    href: 'https://vinifty.tech',
-    company: 'Vinifty',
+    href: 'https://shinkirin.com',
+    company: 'Shinkirin (formerly Vinifty)',
     location: 'HCMC, Vietnam',
     imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649689657/kevin-matsunaga/vinifty-screenshot.webp',
-    imageAlt: 'Vinifty startup website.',
+    imageAlt: 'Shinkirin startup website.',
   },
   {
     id: 5,
+    framework: 'SvelteKit + DaisyUI + Tailwind CSS',
+    href: 'https://kiddystem.com',
+    company: 'KiddySTEM (EN/VN)',
+    location: 'HCMC, Vietnam',
+    imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1652425968/KiddySTEM/kiddystem.webp',
+    imageAlt: 'KiddySTEM website.',
+  },
+  {
+    id: 6,
     framework: 'Next.js + Tailwind CSS',
     href: 'https://nippon.dev',
     company: 'Nippon Edge',
@@ -54,7 +63,7 @@ const currentPorts = [
     imageAlt: 'Nippon Edge website.',
   },
   {
-    id: 6,
+    id: 7,
     framework: 'SvelteKit + DaisyUI + Tailwind CSS',
     href: 'https://sin.nippon.dev',
     company: 'Singapore Node',
@@ -262,10 +271,7 @@ export default function Portfolios() {
         </div>
         <div className="mt-6 mb-6 prose prose-sblue-lg text-gray-900 mx-auto">
           <p>
-          Below are some of our selected current and past projects. For the past projects, the web platform chosen were Next.js, NuxtJS, or WordPress. Several foods and beverage projects integrated Oracle GloriaFood with their projects.<br />
-          <br />
-          For current projects, the most common platform chosen was Next.js or SvelteKit. The projects also integrate with GraphCMS, a GraphQL headless content management system.<br />
-          <br /> We are currently providing serverless or server hosting for most of these projects.
+          Below are some of our selected current and past projects. For current projects, the most common platform chosen was Next.js or SvelteKit. The projects also integrate with GraphCMS, a GraphQL headless content management system.
           </p>
         </div>
       </div>
