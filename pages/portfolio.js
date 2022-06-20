@@ -38,11 +38,11 @@ const currentPorts = [
   {
     id: 4,
     framework: 'SvelteKit + GraphCMS + Tailwind CSS',
-    href: 'https://shinkirin.com',
-    company: 'Shinkirin (formerly Vinifty)',
+    href: 'https://vinifty.tech',
+    company: 'Vinifty',
     location: 'HCMC, Vietnam',
     imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649689657/kevin-matsunaga/vinifty-screenshot.webp',
-    imageAlt: 'Shinkirin startup website.',
+    imageAlt: 'Vinifty startup website.',
   },
   {
     id: 5,

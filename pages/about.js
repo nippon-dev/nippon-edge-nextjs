@@ -122,7 +122,7 @@ export default function AboutMe() {
           Kevin has spent over two decades living overseas (China, Japan, Kazakhstan, Kyrgyzstan, Russia, Turkey, and Vietnam) and can communicate in Japanese, Kazakh, Russian, and basic Vietnamese. He currently resides in Ho Chi Minh City, Vietnam.
           </p>
           <p>
-          Kevin is currently an AWS Scout for Amazon Web Services in Vietnam and a Mentor for the ARUSEA Incubator Program.<br />
+          Kevin is currently an AWS Scout for Amazon Web Services in Vietnam.<br />
           <br />
           <b>Nippon Edge</b> is a side project of Kevin&apos;s to help friends develop and deploy their web projects. The Team that assists with projects are located in Vietnam and Kazakhstan.
           </p>
