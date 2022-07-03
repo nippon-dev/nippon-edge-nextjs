@@ -37,15 +37,6 @@ const currentPorts = [
   },
   {
     id: 4,
-    framework: 'SvelteKit + GraphCMS + Tailwind CSS',
-    href: 'https://vinifty.tech',
-    company: 'Vinifty',
-    location: 'HCMC, Vietnam',
-    imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649689657/kevin-matsunaga/vinifty-screenshot.webp',
-    imageAlt: 'Vinifty startup website.',
-  },
-  {
-    id: 5,
     framework: 'SvelteKit + DaisyUI + Tailwind CSS',
     href: 'https://kiddystem.com',
     company: 'KiddySTEM (EN/VN)',
@@ -54,7 +45,7 @@ const currentPorts = [
     imageAlt: 'KiddySTEM website.',
   },
   {
-    id: 6,
+    id: 5,
     framework: 'Next.js + Tailwind CSS',
     href: 'https://nippon.dev',
     company: 'Nippon Edge',
@@ -63,7 +54,7 @@ const currentPorts = [
     imageAlt: 'Nippon Edge website.',
   },
   {
-    id: 7,
+    id: 6,
     framework: 'SvelteKit + DaisyUI + Tailwind CSS',
     href: 'https://sin.nippon.dev',
     company: 'Singapore Node',
@@ -83,8 +74,17 @@ const portfolios = [
       imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649733333/kevin-matsunaga/shinkirin-screenshot.webp',
       imageAlt: 'Shinkirin Next.js + Tailwind CSS website.',
     },
+      {
+    id: 2,
+    framework: 'SvelteKit + GraphCMS + Tailwind CSS',
+    href: 'https://vinifty.tech',
+    company: 'Vinifty',
+    location: 'HCMC, Vietnam',
+    imageSrc: 'https://res.cloudinary.com/shinkirin/image/upload/v1649689657/kevin-matsunaga/vinifty-screenshot.webp',
+    imageAlt: 'Vinifty startup website.',
+  },
     {
-      id: 2,
+      id: 3,
       framework: 'WordPress',
       href: 'https://seaact.org',
       company: 'SEAACT',
@@ -93,7 +93,7 @@ const portfolios = [
       imageAlt: 'Southeast Asia Action for Clean Technology website.',
     },  
     {
-      id: 3,
+      id: 4,
       framework: 'WordPress + Moodle + Gibbon',
       href: 'https://eduwise.com/',
       company: 'Eduwise Consulting',
@@ -102,7 +102,7 @@ const portfolios = [
       imageAlt: 'Eduwise Consulting website.',
     },
     {
-      id: 4,
+      id: 5,
       framework: 'Next.js + Tailwind CSS + Woocommerce',
       href: 'https://bring.vn',
       company: 'bring.vn',
@@ -111,7 +111,7 @@ const portfolios = [
       imageAlt: 'bring.vn website.',
     },
     {
-      id: 5,
+      id: 6,
       framework: 'Next.js + Tailwind CSS + Woocommerce',
       href: 'https://mangad.app',
       company: 'MangaD.app',
@@ -120,7 +120,7 @@ const portfolios = [
       imageAlt: 'MangaD.app website.',
     },
     {
-      id: 6,
+      id: 7,
       framework: 'NuxtJS + Tailwind CSS + GloriaFood',
       href: 'https://oishiieats.vn/',
       company: 'OishiiEats.vn',
@@ -129,7 +129,7 @@ const portfolios = [
       imageAlt: 'OishiiEats.vn website.',
     },
     {
-      id: 7,
+      id: 8,
       framework: 'NuxtJS + Tailwind CSS',
       href: 'https://qazed.tech',
       company: 'QAZED.tech',
@@ -138,7 +138,7 @@ const portfolios = [
       imageAlt: 'QAZED.tech website.',
     },
     {
-      id: 8,
+      id: 9,
       framework: 'WordPress',
       href: 'https://web.archive.org/web/20161024040145/http://amerasianfoundation.org/category/amerasianfoundation/',
       company: 'Amerasian Foundation',
@@ -147,7 +147,7 @@ const portfolios = [
       imageAlt: 'Amerasian Foundation website.',
     },
     {
-      id: 9,
+      id: 10,
       framework: 'WordPress + GloriaFood (old site)',
       href: 'https://benstylefood.com',
       company: 'Ben Style Food',
@@ -156,7 +156,7 @@ const portfolios = [
       imageAlt: 'Ben Style Food website.',
     },
     {
-      id: 10,
+      id: 11,
       framework: 'Next.js + GloriaFood (old site)',
       href: 'https://babaskitchen.vn',
       company: 'Baba\'s Kitchen',
@@ -165,7 +165,7 @@ const portfolios = [
       imageAlt: 'Baba\'s Kitchen Next.js + Tailwind CSS website.',
     },
     {
-      id: 11,
+      id: 12,
       framework: 'Next.js + Tailwind CSS (old site)',
       href: 'https://gohalalvietnam.com',
       company: 'GoHalalVietnam!',
@@ -174,7 +174,7 @@ const portfolios = [
       imageAlt: 'GoHalalVietnam! Next.js + Tailwind CSS website.',
     },
     {
-      id: 12,
+      id: 13,
       framework: 'WordPress',
       href: 'https://web.archive.org/web/20080222102902/http://www.triviet-consult.com/',
       company: 'Tri Viet Consulting',
