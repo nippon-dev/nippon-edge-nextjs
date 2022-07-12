@@ -37,3 +37,4 @@ Next.js + Tailwind CSS + Slack Project
 [![Netlify Status](https://api.netlify.com/api/v1/badges/fd72b887-64a8-431d-a9b3-019b661817fc/deploy-status)](https://app.netlify.com/sites/nippon-edge/deploys)
 
 # nippon-edge-nextjs
+# nippon-edge-cloudinary
